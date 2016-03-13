@@ -26,5 +26,8 @@ function prepareSlideshow() {
   links[3].onmouseover = function() {
     moveElement("preview",-1500,0,15);
   }
+  links[4].onmouseover = function() {
+    moveElement("preview",-2000,0,15);
+  }
 }
 addLoadEvent(prepareSlideshow);
